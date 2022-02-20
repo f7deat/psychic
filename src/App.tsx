@@ -1,13 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar';
 
 function App() {
   return (
     <div className="flex">
-      <div className='w-24 h-screen border-r flex flex-col justify-center items-center'>
-        <div className='h-12 w-12 bg-dark rounded-2xl'></div>
-      </div>
+      <Navbar/>
       <header className="App-header flex-grow">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
