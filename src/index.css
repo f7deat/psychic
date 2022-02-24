@@ -12,6 +12,10 @@
   --gadient: linear-gradient(90deg, rgba(237,221,235,1) 0%, rgba(123,151,247,1) 60%, rgba(172,207,232,1) 100%);
 }
 
+input {
+  outline: none;
+}
+
 .bg-dark {
   background-color: var(--dark);
 }
